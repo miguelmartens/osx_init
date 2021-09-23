@@ -25,8 +25,8 @@ export ZSH="/Users/Miguelm/.oh-my-zsh"
 plugins=(
   osx
   git
-	git-flow
-	git-extras
+  git-flow
+  git-extras
   git-prompt
   brew
   zsh-autosuggestions

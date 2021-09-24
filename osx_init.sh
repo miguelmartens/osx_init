@@ -12,6 +12,7 @@ FORMULAE=(
     kubernetes-cli
     lynx
     markdown
+    node
     npm
     powerlevel10k
     pyenv

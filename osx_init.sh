@@ -39,6 +39,7 @@ CASKS=(
     cyberduck
     discord
     docker
+    drawio
     google-chrome
     google-drive
     iterm2

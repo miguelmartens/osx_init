@@ -101,7 +101,8 @@ pyenv global $python_version
 pyenv versions
 
 echo "Installing global npm packages..."
-#npm install marked -g
+npm i -g typescript
+npm i -g yarn
 
 echo "Creating folder structure..."
 [[ ! -d ~/Workspace ]] && mkdir ~/Workspace

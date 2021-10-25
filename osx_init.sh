@@ -12,6 +12,7 @@ FORMULAE=(
     kubernetes-cli
     lynx
     markdown
+    nmap
     node
     npm
     powerlevel10k

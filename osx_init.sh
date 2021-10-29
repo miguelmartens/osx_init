@@ -6,7 +6,7 @@ FORMULAE=(
     bash
     calicoctl
     git
-    helm
+    #helm
     jq
     kubectx
     kubernetes-cli
@@ -39,7 +39,7 @@ CASKS=(
     ccleaner
     cyberduck
     discord
-    docker
+    #docker
     drawio
     google-chrome
     google-drive
@@ -50,6 +50,7 @@ CASKS=(
     oracle-jdk
     postman
     powershell
+    rancher
     slack
     spotify
     the-unarchiver

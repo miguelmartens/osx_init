@@ -46,6 +46,7 @@ CASKS=(
     iterm2
     lens
     microsoft-azure-storage-explorer
+    microsoft-remote-desktop
     mono-mdk-for-visual-studio
     oracle-jdk
     postman

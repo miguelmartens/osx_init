@@ -54,6 +54,7 @@ CASKS=(
     rancher
     slack
     spotify
+    tableplus
     the-unarchiver
     visual-studio
     visual-studio-code

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FORMULAE=(
+TAP=(
     azure/bicep
 )
 

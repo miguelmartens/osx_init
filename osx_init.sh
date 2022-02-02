@@ -1,9 +1,14 @@
 #!/bin/bash
 
 FORMULAE=(
+    azure/bicep
+)
+
+FORMULAE=(
     azcopy
     azure-cli
     bash
+    bicep
     calicoctl
     git
     #helm
@@ -81,6 +86,9 @@ fi
 
 # Update Homebrew
 brew update
+
+echo "Tap..."
+brew tap ${TAP[@]}
 
 echo "Installing Formulaes..."
 brew install ${FORMULAE[@]}

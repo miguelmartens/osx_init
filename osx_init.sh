@@ -23,7 +23,9 @@ FORMULAE=(
     powerlevel10k
     pyenv
     python
+    svn
     terraform
+    thefuck
     virtualenv
     virtualenvwrapper
     w3m

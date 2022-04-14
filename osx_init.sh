@@ -13,6 +13,7 @@ FORMULAE=(
     git
     #helm
     jq
+    krew
     kubectx
     kubernetes-cli
     lynx
@@ -67,6 +68,7 @@ CASKS=(
     visual-studio-code
     vlc
     whatsapp
+    wireshark
 )
 
 FONTS=(

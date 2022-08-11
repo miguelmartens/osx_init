@@ -7,6 +7,7 @@ TAP=(
 FORMULAE=(
     azcopy
     azure-cli
+    Azure/kubelogin/kubelogin
     bash
     bicep
     calicoctl
@@ -44,7 +45,6 @@ CASKS=(
     azure-data-studio
     balenaetcher
     bitwarden
-    ccleaner
     cyberduck
     discord
     #docker
@@ -59,7 +59,7 @@ CASKS=(
     oracle-jdk
     postman
     powershell
-    rancher
+    #rancher
     slack
     spotify
     tableplus

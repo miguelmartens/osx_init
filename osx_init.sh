@@ -11,13 +11,13 @@ FORMULAE=(
     bash
     bicep
     calicoctl
+    checkov
     git
-    #helm
+    helm
     jq
     krew
     kubectx
     kubernetes-cli
-    lynx
     markdown
     nmap
     node
@@ -30,7 +30,6 @@ FORMULAE=(
     thefuck
     virtualenv
     virtualenvwrapper
-    w3m
     watch
     tree
     vim
@@ -62,7 +61,6 @@ CASKS=(
     #rancher
     slack
     spotify
-    tableplus
     the-unarchiver
     visual-studio
     visual-studio-code

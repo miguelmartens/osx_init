@@ -13,6 +13,7 @@ FORMULAE=(
     calicoctl
     checkov
     git
+    gitleaks
     helm
     jq
     krew

@@ -21,8 +21,6 @@ FORMULAE=(
     kubernetes-cli
     markdown
     nmap
-    node
-    npm
     powerlevel10k
     pyenv
     python
@@ -38,6 +36,8 @@ FORMULAE=(
     zsh
     zsh-autosuggestions
     zsh-syntax-highlighting
+    k9s
+    gh
 )
 
 CASKS=(
@@ -49,8 +49,6 @@ CASKS=(
     discord
     #docker
     drawio
-    google-chrome
-    google-drive
     iterm2
     lens
     microsoft-azure-storage-explorer
@@ -59,15 +57,17 @@ CASKS=(
     oracle-jdk
     postman
     powershell
-    #rancher
+    rancher
     slack
     spotify
     the-unarchiver
-    visual-studio
     visual-studio-code
     vlc
     whatsapp
     wireshark
+    mullvadvpn
+    postman
+    tableplus
 )
 
 FONTS=(
@@ -114,10 +114,6 @@ echo "Set the latest version of Python to Global Default"
 python_version=$(brew info python | awk 'FNR == 1 {print $3}')
 pyenv global $python_version
 pyenv versions
-
-echo "Installing global npm packages..."
-npm i -g typescript
-npm i -g yarn
 
 echo "Creating folder structure..."
 [[ ! -d ~/Workspace ]] && mkdir ~/Workspace
